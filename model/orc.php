@@ -28,7 +28,7 @@ class Orc extends Character
         $this->set_damage($this->get_damage() + $damageInit);
     }
 
-    function __construct($startHealth, $startRage, $damage)
+    public function __construct($startHealth, $startRage, $damage)
     {
         parent::__construct($startHealth, $startRage);
         $this->set_Damage($damage);
