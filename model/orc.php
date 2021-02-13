@@ -27,6 +27,10 @@ class Orc extends Character
     public function attack($damageInit) {
         $this->set_damage($this->get_damage() + $damageInit);
     }
+    //ou correction
+    //public function attack() {
+        //$this->set_damage(rand(600, 800));
+    //}
 
     public function __construct($startHealth, $startRage, $damage)
     {

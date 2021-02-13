@@ -116,4 +116,11 @@ class Hero extends Character
         $this->set_shield($shield);
         $this->set_shieldValue($shieldValue);
     }
+
+    //ou construct avec array
+    //public function __construct($arrayHero)
+    // {
+    //     parent::__construct($heroArray["health"], $heroArray["rage"]);
+    //     $this->set_weapon($heroArray["weapon"])->set_weaponDamage($heroArray["damage"])->set_shield($heroArray["shield"])->set_shieldValue($heroArray["armor"]);
+    // }
 }
